@@ -1,0 +1,21 @@
+# Task 1
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: "))
+
+Addition = first_number + second_number
+Subtraction = first_number - second_number
+Multiplication = first_number * second_number
+Division = first_number / second_number
+
+print("\n")
+print(f"Addition: {Addition}")
+print(f"Subtraction: {Subtraction}")
+print(f"Multiplication: {Multiplication}")
+print(f"Division: {Division}")
+
+# Task 2
+print("\n")
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+print("\n")
+print(f"Hello, {first_name} {last_name}! Welcome to the Python program.")
