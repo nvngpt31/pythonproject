@@ -1,0 +1,28 @@
+# Task 1 - Basic Arithmetic Operations
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: "))
+ 
+# Perform arithmetic operations
+addition = first_number + second_number
+subtraction = first_number - second_number
+multiplication = first_number * second_number
+ 
+# Division with error handling for division by zero
+if second_number != 0:
+    division = first_number / second_number
+else:
+    division = "Error: Division by zero is not allowed."
+ 
+# Display results
+print("\n")
+print(f"Addition: {addition}")
+print(f"Subtraction: {subtraction}")
+print(f"Multiplication: {multiplication}")
+print(f"Division: {division}")
+ 
+# Task 2 - Greeting User
+print("\n")
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+print("\n")
+print(f"Hello, {first_name} {last_name}! Welcome to the Python program.")
