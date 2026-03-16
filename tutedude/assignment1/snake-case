@@ -1,0 +1,40 @@
+Refactoring variable names to use snake_case means changing the naming style of variables in a codebase to use all lowercase letters, with spaces between words replaced by underscores (). It is a code cleaning process (refactoring) designed to improve readability, ensure consistency, and adhere to specific language standards, most notably in Python. 
+Key Aspects of the Request 
+
+• Lowercase Only: All letters are in lowercase. 
+• Underscore Separation: Words are separated by an underscore. 
+• Refactoring: This implies changing existing names or to the new standard throughout the entire project. 
+
+Why Use ? 
+
+1. Readability: The underscores act as visual separators, making it easier for humans to scan and distinguish words compared to long  strings. 
+2. Language Standards:  is the official naming convention for variables, functions, and methods in Python (PEP 8), Rust, and Ruby. 
+3. Consistency: Applying this style across a project makes the code look uniform and professional. 
+4. Database Compatibility: It is highly compatible with database table and column naming conventions. 
+
+"Screaming" Snake Case (Constants) 
+A variation known as SCREAMING_SNAKE_CASE (all uppercase with underscores) is used for constants—variables whose value does not change—such 
+
+How to Refactor 
+Most modern Integrated Development Environments (IDEs) like VS Code, PyCharm, or IntelliJ allow you to highlight a variable, press a command (like  or ), and select "Rename," which will automatically update all instances of that variable name throughout the project, avoiding broken references.  
+
+
+Ref links:
+https://www.theserverside.com/definition/Snake-case
+https://www.pluralsight.com/resources/blog/software-development/programming-naming-conventions-explained
+https://realpython.com/ref/glossary/snake-case/
+https://realpython.com/python-variables/
+https://en.wikipedia.org/wiki/Snake_case
+https://workik.com/variable-name-generator
+https://dev.to/eddiegulay/mastering-c-naming-standards-for-variables-272e
+https://getsdeready.com/best-practices-for-writing-clean-and-maintainable-code/
+https://www.youtube.com/watch?v=aYw-D_HH2bI
+https://www.youtube.com/watch?v=VW1_PkLwL4Y
+https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/
+
+
+
+
+
+
+
