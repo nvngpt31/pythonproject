@@ -1,0 +1,7 @@
+Mentor Feedback:
+Great work on this assignment, Naveen! You've clearly understood the core concepts and implemented both tasks correctly. What really stands out is your documentation—your README is well-written with clear instructions, which shows you're thinking about how others will use your code. Your variable naming and use of f-strings also show good coding habits. The only tiny thing to polish is adding a space after the comma in your range() function to match Python style conventions, but that's really minor. For your next step, try adding a few comments directly in your .py files explaining what the modulus operator does and how the accumulation pattern works—it'll help reinforce these concepts for yourself and anyone reading your code.
+
+Recommendations:
+1. Consider adding inline comments in the actual .py files (Task1.py and Task2.py) to explain the logic, especially for beginners reading the code. For example, a comment above the modulus operation explaining why '% 2 == 0' means even would be helpful.
+2. In Task 2, you could add a comment explaining what 'total += i' does (accumulation pattern) since this is a key concept for beginners
+3. As a next step, try combining both tasks into a single program that asks the user which task they want to run, or explore how to write functions to make your code more reusable
