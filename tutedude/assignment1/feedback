@@ -1,0 +1,13 @@
+Mentor Feedback:
+Excellent work on this assignment! Your code is clean, functional, and demonstrates a solid understanding of the basics. 
+I especially like how you used f-strings for formatting and kept your variable names descriptive. 
+To take this to the next level, 
+1. add a simple check to prevent division by zero (like the example submissions show), and 
+2. create a quick README file explaining how to run your code. 
+These two additions would make your submission even stronger.
+
+Recommendations:
+1. Add division by zero error handling to make your program more robust. This shows defensive programming thinking and was noted as a strength in similar submissions.
+2. Create a README.md file with basic instructions - this is a quick win for documentation points and helps anyone using your code understand how to run it.
+3. Refactor variable names to use snake_case (addition, subtraction, etc.) to follow Python conventions. This is a small change that makes your code more 'Pythonic'.
+4. Consider adding a simple comment above each section explaining what the task does, even just one line per task.
