@@ -1,0 +1,58 @@
+Why use casing in programming?
+In prgoramming, spaces are reserved characters. Suppose you wannt to create one variable in your programm, and the name of the variable is just more than one word. 
+For your program, not to crash, don't leave spaces between the words when creating the variables. 
+
+For example, images older than 90 days = 12345
+Language will interpret this: images, older, than, 90, days 
+
+Variable name will be treated separately from each other because of space character in between them. 
+
+For program to work properly, we need to remove all the spaces and combine the words into a single string in a specific way. 
+
+There are few ways to combine them. These are called naming conventions available across all programming languages:
+1. snake case
+2. snake screaming case
+3. kebab case
+4. camel case
+5. pascal case 
+6. flat case
+7. train case
+
+1. snake case = snake case separates each word with an underscore character (_). When using snake case, all letters need to be lowercase.
+example: images_older_than_90_days
+Best use case: Python, Ruby, PhP and databases, as it is used for creating table and column names.
+
+2. screaming snake case: all-caps version of the snake case where all letters are in the upper case also. 
+example: IMAGES_OLDER_THAN_90_DAYS
+it is used for declaring constants in most programming languages. A constant is a data item whose value doesn't change throughout the life of a program.
+
+3. kebab case:: All letters are lowercase, and words are separated by hyphens (-) (e.g., user-profile, page-header). 
+Commonly used in URLs, CSS classes, and HTML IDs (though invalid in most programming languages because the hyphen acts as a minus sign).
+example: images-older-than-90-days
+
+4. camel case: : The first word starts with a lowercase letter, and every subsequent merged word starts with a capital letter, 
+with no spaces or symbols in between (e.g., userProfile, totalAmount). Commonly used for variables, functions, and methods in languages like JavaScript, Java, and TypeScript.
+example: imagesOlderThan90Days
+
+5. pascal case: Similar to camel case, except the first word is also capitalized (e.g., UserProfile, TotalAmount). 
+Frequently used for class names, interfaces, and components in C#, Java, React, and Go
+example: ImagesOlderThan90Days
+
+6. flat case: : All letters are lowercase with no spaces or separators at all (e.g., userprofile). 
+Rarely used for multi-word identifiers because readability is low.
+example: imagesolderthan90days
+
+7. train case: Similar to kebab case, but every word starts with a capital letter separated by hyphens (e.g., Accept-Language, often seen in HTTP headers)
+example: Images-Older-Than-90-Days
+
+Experience: when doing coding in python, I found that code generated in python was not following the format. I used PEP 8 official sytle guide. 
+1. use snake case
+2. never use special character
+3. do not start with numbers
+4. avoid python keywords
+
+best practices:
+1. use noun for objects or values like user_email
+2. include units if relevant like file_size_bytes
+3. use plural names for collections like user_emails
+4. use booleans with prefixes like is_logged_in = True
